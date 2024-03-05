@@ -1,6 +1,15 @@
 # PubSub_Pico
-# Progrma name:  Test105.py
-# This Python program initiates a communictaion between a Raspberry Pico W and an internal Node-Red broker, which runs on a Raspberry Pi 4.
-# The program is running on a Raspberry Pi Pico W (using Thonny) and allows communications in both direction using the MQTT protocol (Publish and Subscribe). 
-# 
+# Program name:  Test105.py
 #
+#
+# This program is written in Python and has been tested on a Raspberry Pico W. 
+# It will connect to an internal Node-Red broker (running on a Raspberry Pi 4) via WiFi using the MQTT protocol. 
+# for a bi-directional communications (Publish and Subscribe).  
+# Publish: A button (GPIO17) will initiate an interrupt, which sets a global variable.
+# Subscribe: An external LED (GPIO16) will switch on/off depending on a message received from the Node-Red broker. 
+# 
+# Comments in the program are in German language.
+#
+#
+
+
